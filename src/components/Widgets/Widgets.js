@@ -3,7 +3,7 @@ import "./Widgets.css";
 
 const Widgets = () => {
   return (
-    <div className="widgets">
+    <div className>
       <h2>Widgets Component</h2>
     </div>
   );
