@@ -8,6 +8,7 @@
   background: #e8f5fe;
   border-radius: 30px;
   color: var(--twitterColor);
+  transition: color 0.1s ease-out;
 }
 
 .sidebar__option > .MuiSvgIcon-root {
@@ -18,4 +19,8 @@
   font-weight: 800;
   margin-right: 20px;
   font-size: 20px;
+}
+
+.sidebar__option--active {
+  color: var(--twitterColor);
 }
